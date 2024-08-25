@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+}
+.body{
+    background-color: #2C3333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+span{
+    background-color: #2C3333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator{
+    background-color: #2e4f4fa9;
+    padding: 15px;
+    display: flex;
+    border-radius: 10px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+form input{
+    background: transparent;
+    border: 0px;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    box-shadow: -8px -8px 15px #2C3333, 8px 8px 15px #3b514c;
+    border-radius: 50pc;
+    margin: 0.2rem;
+    cursor: pointer;
+    
+}
+form input:hover{
+    background: #2E4F4F;
+    transition: 0.25s ease-in-out;
+}
+.equal{
+    width: 130px;
+    background-color: #ff9000 ;
+}
+.equal:hover{
+    background-color: #cb7300 ;
+
+}
+.display{
+    width: 270px;
+    text-align: right;
+    padding: 0px 1rem;
+    margin: 2rem auto;
+}

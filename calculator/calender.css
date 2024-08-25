@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #01142f, #0f3170);
+
+}
+.calender{
+    /* width: 300px; */
+    /* height: 280px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    /* border-radius: 20px; */
+    
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    font-size: 1.3rem;
+    
+
+}
+.right{
+    width: 120px;
+    background-color: rgb(255, 123, 0);
+}
+.left{
+    width: 180px;
+    background-color: white;
+}
+.left span{
+    color: black;
+}
+#date{
+    font-size: 4rem;
+}
